@@ -1,0 +1,1 @@
+This is a Next.js application using graphql, urql and graphcms.

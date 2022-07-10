@@ -1,0 +1,17 @@
+query Project($slug: String) {
+    project(
+      where: {
+          slug: $slug
+      }
+    ) {
+        title
+        description
+    }
+}
+
+query Projects {
+    projects {
+        title
+        description
+    }
+}
